@@ -1,0 +1,20 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Лабораторні роботи 7-9: Playwright, POM, CI",
+  "scripts": {
+    "setup": "npm install --no-audit --no-fund",
+    "test": "playwright test",
+    "test:lab7": "playwright test tests/lab7",
+    "test:lab8": "playwright test tests/lab8",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0"
+  },
+  "dependencies": {
+    "playwright-automation": "file:"
+  }
+}
